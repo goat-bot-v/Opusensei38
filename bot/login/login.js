@@ -1,5 +1,5 @@
 // set bash title
-process.stdout.write("\x1b]2;Goat Bot V2 - Made by NTKhang\x1b\x5c");
+process.stdout.write("\x1b]2;GoatBot - Modified By opu\x1b\x5c");
 const defaultRequire = require;
 
 function decode(text) {
@@ -15,7 +15,8 @@ const path = defaultRequire("path");
 const readline = defaultRequire("readline");
 const fs = defaultRequire("fs-extra");
 const toptp = defaultRequire("totp-generator");
-const login = defaultRequire(`${process.cwd()}/fb-chat-api`);
+//const login = defaultRequire(`${process.cwd()}/fb-chat-api`);
+const login = defaultRequire("ws3-fca");
 const qr = new (defaultRequire("qrcode-reader"));
 const Canvas = defaultRequire("canvas");
 const https = defaultRequire("https");
@@ -491,11 +492,11 @@ async function getAppStateToLogin(loginWithEmail) {
 					}))
 					.filter(i => i.key && i.value && i.key != "x-referer");
 			}
-			if (!await checkLiveCookie(appState.map(i => i.key + "=" + i.value).join("; "), facebookAccount.userAgent)) {
-				const error = new Error("Cookie is invalid");
-				error.name = "COOKIE_INVALID";
-				throw error;
-			}
+			//if (!await checkLiveCookie(appState.map(i => i.key + "=" + i.value).join("; "), facebookAccount.userAgent)) {
+				//const error = new Error("Cookie is invalid");
+				//error.name = "COOKIE_INVALID";
+				//throw error;
+			//}
 		}
 	}
 	catch (err) {
