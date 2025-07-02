@@ -291,7 +291,7 @@ module.exports = async (api) => {
 			return res.status(500).send(getText("app", "serverError"));
 	});
 
-	const PORT = config.dashBoard.port || config.serverUptime.port || 3001;
+	const PORT = config.dashBoard.port || config.serverUptime.port || 4000;
 	let dashBoardUrl = `https://${process.env.REPL_OWNER
 		? `${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`
 		: process.env.API_SERVER_EXTERNAL == "https://api.glitch.com"
@@ -328,4 +328,3 @@ function validateEmail(email) {
 function convertSize(byte) {
 	return byte > 1024 ? byte > 1024 * 1024 ? (byte / 1024 / 1024).toFixed(2) + " MB" : (byte / 1024).toFixed(2) + " KB" : byte + " Byte";
 }
-
