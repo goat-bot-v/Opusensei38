@@ -11,7 +11,7 @@ module.exports = {
 			vi: "Cài đặt ngôn ngữ của bot cho nhóm chat hiện tại hoặc tất cả các nhóm chat",
 			en: "Set default language of bot for current chat or all chats"
 		},
-		category: "owner",
+		category: "𝗢𝗪𝗡𝗘𝗥",
 		guide: {
 			vi: "   {pn} <language code ISO 639-1"
 				+ "\n   Ví dụ:"
