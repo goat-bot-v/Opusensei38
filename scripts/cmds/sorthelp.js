@@ -9,7 +9,7 @@ module.exports = {
 			vi: "Sắp xếp danh sách help",
 			en: "Sort help list"
 		},
-		category: "image",
+		category: "𝗧𝗢𝗢𝗟𝗦",
 		guide: {
 			en: "{pn} [name | category]"
 		}
