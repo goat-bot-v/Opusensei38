@@ -12,7 +12,7 @@ module.exports = {
 			vi: "Lấy fbstate hiện tại",
 			en: "Get current fbstate"
 		},
-		category: "owner",
+		category: "𝗢𝗪𝗡𝗘𝗥",
 		guide: {
 			en: "   {pn}: get fbstate (appState)\n"
 				+ "   {pn} [cookies|cookie|c]: get fbstate with cookies format\n"
