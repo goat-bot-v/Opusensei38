@@ -23,7 +23,7 @@ module.exports = {
 			vi: "Tìm nghĩa của emoji",
 			en: "Find the meaning of emoji"
 		},
-		category: "wiki",
+		category: "𝗜𝗡𝗙𝗢",
 		guide: {
 			vi: "   {pn} <emoji>: Tìm nghĩa của emoji",
 			en: "   {pn} <emoji>: Find the meaning of emoji"
