@@ -12,7 +12,7 @@ module.exports = {
 			vi: "gửi báo cáo, góp ý, báo lỗi,... của bạn về admin bot",
 			en: "send report, feedback, bug,... to admin bot"
 		},
-		category: "contacts admin",
+		category: "𝗢𝗪𝗡𝗘𝗥",
 		guide: {
 			vi: "   {pn} <tin nhắn>",
 			en: "   {pn} <message>"
