@@ -1,7 +1,7 @@
 {
 	"facebookAccount": {
-		"email": "",
-		"password": "",
+		"email": "gojo.bot25@gmail.com",
+		"password": "@gojo-bot+999",
 		"2FASecret": "",
 		"i_user": "",
 		"proxy": null,
@@ -18,7 +18,7 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [61577055977574],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
