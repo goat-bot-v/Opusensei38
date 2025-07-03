@@ -9,7 +9,7 @@ module.exports.config ={
     name: "prompt",
     version: "6.9",
     author: "dipto",
-    aliases: "p",
+    aliases: ["p", "prompt"]
     countDown: 5,
     role: 0,
     category: "𝗠𝗘𝗗𝗜𝗔",
